@@ -1,1 +1,1 @@
-# LuizFelipeMendes266-Supervised-Machine-Learning-Classification-Telco-Costumer-Churn
+# Neste projeto, analisei a base de dados com base em diferentes tipos de ML Classifiers, utilizando de múltiplas métricas de avalição para considerar o desempelho de tais modelos.
