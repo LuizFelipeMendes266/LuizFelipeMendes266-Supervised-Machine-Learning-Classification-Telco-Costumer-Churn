@@ -1,5 +1,5 @@
 
-# Wallmart Analysis
+# Supervised Machine Learning Classification : Telco Costumer Churn
 
 ## Table of Contents
 
