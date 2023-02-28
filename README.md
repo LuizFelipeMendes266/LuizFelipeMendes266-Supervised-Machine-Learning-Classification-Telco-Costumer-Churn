@@ -12,8 +12,7 @@
 
 ## Project Description
 
-In this project, a sales database from Walmart, an American multinational department store, was analyzed.
-The goal is to demonstrate which store would be the best choice for a potential investment.
+Each row represents a customer, and each column contains a customer's attributes. Therefore, the project is about predicting customer churn for a customer base.
 
 ## Data
 
