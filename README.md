@@ -45,17 +45,12 @@ Summary of Features:
 
 ## Methodology
 
-The Pandas, Numpy, and Matplotlib libraries were used for exploratory analysis. Based on the business perspective, some features were highlighted, especially weekly sales and fuel prices by region.
+Pandas, Numpy, and Sklearn were the libraries used. The exploratory and descriptive analysis was all produced by the pandas_profile library, and considerations for the features are in the notebook itself. Regarding classifiers, the data was tested on SVM, Logistic Regression, and Random Forest. To evaluate the classifier's performance, the main metrics such as Recall, F1 Score, Accuracy, and ROC AUC curve were used.
+I chose to use the BayerSearchCV to optimize the hyperparameters.
 
 ## Results
-Stores with sales above average were analyzed and a table was created with information on fuel prices for each store's region.
 
-| Store | Max  | Min  | Mean     | Variation of fuel price % |
-|-------|------|------|----------|------------|
-| 13    | 3.845| 2.654| 3.286147 | 44.875659  |
-| 4     | 3.881| 2.540| 3.216972 | 52.795276  |
-| 10    | 4.468| 2.825| 3.575923 | 58.159292  |
-| 28    | 4.468| 2.825| 3.606420 | 58.159292  |
+
 
 ***Store 4 was selected as the best investment since it has the best results regarding sales and local fuel price.***
 
