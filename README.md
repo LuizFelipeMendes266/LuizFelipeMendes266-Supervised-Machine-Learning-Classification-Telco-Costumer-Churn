@@ -61,7 +61,7 @@ I chose to use the BayerSearchCV to optimize the hyperparameters.
 
 ## Usage
 
-#Libraries Used
+# Libraries Used
 pandas: data manipulation library used to read, clean and manipulate the dataset.
 numpy: numerical computing library used to perform mathematical operations on the data.
 sklearn: machine learning library used to train and evaluate models.
@@ -69,7 +69,7 @@ bayesSearchCv: hyperparameter optimization library used to optimize the models.
 feature_engine: feature engineering library used to encode categorical variables.
 pandas_profiling: exploratory data analysis library used to generate a report of the dataset.
 
-#Installation
+# Installation
 
 To install the required libraries, you can run the following command:
 
