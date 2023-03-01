@@ -50,20 +50,31 @@ I chose to use the BayerSearchCV to optimize the hyperparameters.
 
 ## Results
 
+| Classifier         | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|--------------------|----------|-----------|--------|----------|---------|
+| LogisticRegression | 82.18    | 67.74     | 60.87  | 76.13    | 0.87    |
+| RandomForest       | 82.18    | 68.33     | 59.42  | 75.89    | 0.87    |
+| SVM                | 81.61    | 67.37     | 57.61  | 74.98    | 0.86    |
 
 
-***Store 4 was selected as the best investment since it has the best results regarding sales and local fuel price.***
+***In this case, we have very similar metrics. However, logistic regression may be the best choice due to slightly higher recall, as we have an imbalanced dataset.***
 
 ## Usage
 
-To run this project, you will need to have Python installed on your computer. You will also need to install the following libraries:
+#Libraries Used
+pandas: data manipulation library used to read, clean and manipulate the dataset.
+numpy: numerical computing library used to perform mathematical operations on the data.
+sklearn: machine learning library used to train and evaluate models.
+bayesSearchCv: hyperparameter optimization library used to optimize the models.
+feature_engine: feature engineering library used to encode categorical variables.
+pandas_profiling: exploratory data analysis library used to generate a report of the dataset.
 
-- pandas
-- numpy
-- matplotlib
+#Installation
 
-You can install these libraries via pip, a package-management system used to install and manage software packages written in Python.
+To install the required libraries, you can run the following command:
+
+pip install pandas numpy scikit-learn bayesian-optimization feature-engine pandas-profiling
 
 ## References
 
-https://www.kaggle.com/datasets/yasserh/walmart-dataset
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
